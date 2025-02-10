@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.inputs {
+  margin-bottom: 20px;
+}
+.inputs div {
+  margin-bottom: 5px;
+}
+label {
+  display: inline-block;
+  width: 300px;
+}
+svg {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+.dimText {
+  font-size: 12px;
+  fill: blue;
+}
+.dimLine {
+  stroke: blue;
+  stroke-dasharray: 2, 2;
+}
